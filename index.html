@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic tac toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading"><h1 id="head">Tic tack toe</h1></div>
+    <div class="message hide" ><p id="msg">message</p>
+        <button id="playAgain" class="reset">play again</button>
+    </div>
+    
+    <div class="score">
+
+        
+        <div class=" all blue">
+            <p>player 1</p>
+            <h3 class="playerScore">0</h3>
+        </div>
+        <div class=" all red">
+            <p>player 2</p>
+            <h3 class="playerScore">0</h3>
+        </div>
+    </div>
+
+    <div class="playarea">
+        <div class="container">
+
+            <div class="column1">
+                
+                <button class="choice  box" id="r1c1"></button>
+                <button class="choice  box" id="r1c2"></button>
+                <button class="choice  box" id="r1c3"></button>
+            </div>
+            <div class="column2">
+                
+                <button class="choice box" id="r2c1"></button>
+                <button class="choice box" id="r2c2"></button>
+                <button class="choice box" id="r2c3"></button>
+            </div>
+            <div class="column3">
+                
+                <button class="choice box" id="r3c1"></button>
+                <button class="choice box" id="r3c2"></button>
+                <button class="choice box" id="r3c3"></button>
+            </div>
+        </div>
+    </div>
+    
+    <button id="reset" class="reset">reset</button>
+
+</body>
+<script src="script.js"></script>
+</html>

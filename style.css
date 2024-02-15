@@ -1,0 +1,116 @@
+*{
+    margin: o;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(214, 212, 228);
+}
+.heading{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(109, 29, 29);
+
+}
+
+#head{
+    font-size: 40px;
+    color: #fff;
+    background-color: rgb(109, 29, 29);
+}
+.score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+}
+.all{
+    font-size: 25px;
+
+}
+.playarea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.container{
+    width: 8cm;
+    height: 7cm;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    
+    
+}
+
+.box{
+width: 2.2cm;
+height: 2cm;
+background-color: rgb(194, 166, 166);
+margin-top: 3px;
+margin-left: 6px;
+font-size: 1.8cm;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 20px;
+border: 0px;
+color: black;
+
+}
+.column1 , .column2 , .column3{
+    width: 2.3cm;
+    height: 6.3cm;
+   align-items: center;
+    justify-content: center;
+    
+margin-top: 5px;
+gap: 5px;
+   
+}
+#msg{
+    font-size: 60px;
+    margin-top: 30px;
+
+}
+.box:hover{
+    filter: brightness(120%);
+    cursor: pointer;
+}
+.reset{
+    background-color: rgb(55, 97, 55);
+    font-size: 30px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+}
+.blue{
+    color: rgb(129, 129, 250);
+    
+    
+}
+.red{
+    color: rgb(251, 105, 105);
+}
+.reset:hover{
+    cursor: pointer;
+    filter: drop-shadow(1px 2px 3px black );
+}
+
+.message{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+.hide{
+    display: none;
+}
